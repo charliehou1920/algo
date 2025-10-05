@@ -16,5 +16,5 @@ def rabit(n, k):
     else:
         return rabit(n-1, k) + rabit(n-2, k) * k
     
-result = rabit(5, 3)
+result = rabit(28, 3)
 print(result)
